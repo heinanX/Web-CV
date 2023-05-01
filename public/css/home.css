@@ -1,0 +1,120 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+
+.screen {
+    width: 45em;
+    height: 15em;
+/*     border: 1px solid rgb(183, 0, 255); */
+    border: 2px solid black;
+
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+
+    /* color: aliceblue; */
+    color: rgb(0, 0, 0);
+}
+
+.screen > p {
+    margin-bottom: 5px;
+}
+
+
+.keyboard {
+    width: 46em;
+    height: 13em;
+    border: 1px solid blue;
+
+    position: absolute;
+    bottom: 2rem;
+    display: none;
+    gap: 1px 4px;
+    flex-wrap: wrap;
+}
+
+.key {
+    width: 4em;
+    height: 4em;
+    padding: 1rem;
+    border: 2px solid hotpink;
+    border-radius: 4px;
+    color: hotpink;
+}
+
+.key:hover {
+    cursor: pointer;
+    border: 2px solid rgb(165, 68, 117);
+}
+
+.keyQ {
+    margin-left: 0.5rem;
+}
+
+.keyA {
+    margin-left: 2rem;
+}
+
+.keyEnter {
+    display: flex;
+    justify-content: center;
+}
+
+.sm--keyEnter {
+    display: none;
+}
+
+.keyZ {
+    margin-left: 1rem;
+}
+
+.enter--name {
+/*     color: aliceblue; */
+    color: black;
+    /* background-color: rgba(240, 248, 255, 0.297); */
+    background-color: rgba(203, 247, 200);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+}
+
+/* -------- columns --------  */
+
+.board {
+    margin-top: 5rem;
+}
+.projects {
+    border: 2px solid hotpink;
+}
+.projects > div {
+    border: 2px solid hotpink;
+    width: 10em;
+    height: 10em;
+}
+
+.presentation {
+    border: 2px solid rgb(105, 223, 255);
+}
+.presentation > div {
+    border: 2px solid rgb(105, 223, 255);
+    width: 10em;
+    height: 10em;
+
+}
+
+.btn-secondary {
+    color: lightgreen;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
