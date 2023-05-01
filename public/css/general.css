@@ -20,7 +20,7 @@ header {
     border-bottom: 4px double black;
 }
 
-.headerName {
+header > h1 {
     padding-top: 1rem;
     font-family: 'Fuzzy Bubbles', cursive;
 }

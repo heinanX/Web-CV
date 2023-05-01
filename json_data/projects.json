@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Inloggningssida",
+        "link": "https://github.com/heinanX/Inloggningssida",
+        "description": "One of our first assignments.",
+        "project": "mine"
+    },
+    {
+        "title": "TechStore10",
+        "link": "https://github.com/SigneAnnaMaria/TechStore10",
+        "description": "One of our first assignments.",
+        "project": "collaboration"
+    },
+    {
+        "title": "Adressbok med Fetch",
+        "link": "https://github.com/SaraPellnor/Adressbok-med-fetch-",
+        "description": "One of our first assignments.",
+        "project": "collaboration"
+    },
+    {
+        "title": "4 in a row",
+        "link": "https://github.com/SaraPellnor/Game---Grupp-11",
+        "description": "One of our first assignments.",
+        "project": "collaboration"
+    },
+    {
+        "title": "Calculator",
+        "link": "https://github.com/SaraPellnor/Calculator",
+        "description": "One of our first assignments.",
+        "project": "collaboration"
+    },
+    {
+        "title": "To do List Frontend",
+        "link": "https://github.com/SaraPellnor/TypeScript-TdoList-Frontend",
+        "description": "One of our first assignments.",
+        "project": "collaboration"
+    },
+    {
+        "title": "To do List Backend",
+        "link": "https://github.com/SaraPellnor/TypeScript-TdoList-Backend",
+        "description": "One of our first assignments.",
+        "project": "collaboration"
+    }
+]
