@@ -1,8 +1,6 @@
 body {
     height: calc(100vh - 5rem);
-
 }
-
 
 aside {
     height: 100%;
@@ -12,10 +10,9 @@ aside {
 
 aside > div {
     width: 18rem;
-    height: 24rem;
+
     border: 1px solid black;
     padding: 1rem;
-    /* border-top: none; */
 }
 
 ul {
@@ -62,6 +59,10 @@ main {
 .style--h4 {
     margin-left: 1rem;
     background-color: white;
+}
+
+.sidemenu > li {
+    margin-bottom: 1rem;
 }
 /* li {
     margin-bottom: 1rem;

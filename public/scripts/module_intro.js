@@ -1,9 +1,7 @@
-import { reloadHome, nameOfVisitor, board } from './script.js'
+import { reloadHome_skills, reloadHome_personality, nameOfVisitor, board } from './script.js'
 
 export const playIntro = () => {
 
-    const header = document.querySelector('header')
-    header.style.display = 'none'
     board.style.display = 'none'
     const text = document.querySelector('.hello')
     let greet = "... ";
@@ -141,7 +139,7 @@ const cueGreeting = () => {
     const text = document.createElement('p')
     text.setAttribute('id', 'hello--row--3')
     screen.appendChild(text)
-    let greet = `Nice to make your acquaintance, ${nameOfVisitor[0]}!`;
+    let greet = `Great to see you here, ${nameOfVisitor[0]}!`;
 
 
     let index = 0;
@@ -226,20 +224,22 @@ const makeChoice = () => {
 const makeChoiceBtns = (screen) => {
     const div = document.createElement('div')
     div.setAttribute('class', 'makeChoiceBtn--div')
-    const span = document.createElement('span')
-    const personalityBtn = document.createElement('button')
-    const skillsBtn = document.createElement('button')
-    personalityBtn.setAttribute('class', 'btn btn-secondary')
-    skillsBtn.setAttribute('class', 'btn btn-secondary')
-    span.innerText = ' or '
 
+    const personalityBtn = document.createElement('button')
+    personalityBtn.setAttribute('class', 'btn btn-secondary')
+    const span = document.createElement('span')
+    const skillsBtn = document.createElement('button')
+    skillsBtn.setAttribute('class', 'btn btn-secondary')
+    
     personalityBtn.innerText = 'Personality'
+    span.innerText = ' or '
     skillsBtn.innerText = 'Skills'
 
     div.append(personalityBtn, span, skillsBtn)
     screen.appendChild(div)
 
-    skillsBtn.addEventListener('click', reloadHome)
+    skillsBtn.addEventListener('click', reloadHome_skills)
+    personalityBtn.addEventListener('click', reloadHome_personality)
 }
     /* reloadHome() */
 /* let greet = "Please wait while I get things ready..."; */

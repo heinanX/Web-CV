@@ -15,14 +15,21 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    position: fixed;
+
     padding: 0 2rem 0 2rem;
-    color: rgb(52, 126, 90);
+    color: rgb(228, 244, 237);
     border-bottom: 4px double black;
+    background-color: black;
 }
 
 header > h1 {
     padding-top: 1rem;
-    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+h1 a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 nav > ul {
@@ -44,6 +51,16 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+/*     background-image: url('../images/silhouette.png');
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+.banner {
+    background-color: rgb(228, 244, 237);
+    padding: 2rem;
+    text-align: center;
+    font-weight: 500;
 }
 
 .init--load {
@@ -62,3 +79,37 @@ body {
 .nav--link:hover {
     color: rgb(175, 175, 0);
 }
+
+.fuzzy-bubbles {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.center--adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-turquoise {
+    color: #25b4b1;
+}
+.font-dark {
+    color: #1a7170;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    padding: 0 2pt;
+}
+
+.set-size {
+    font-size: 14pt;
+}
+
+.strip {
+    margin-top: 1rem;
+    margin-bottom: 0
+    ;
+    background-color: white;
+}
+
