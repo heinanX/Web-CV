@@ -55,11 +55,11 @@ const loopItems = (items) => {
         const p = document.createElement('p');
 
         a.setAttribute('href', item.link)
-        h4.textContent = item.title;
+        a.textContent = item.title;
         p.textContent = item.description;
 
-        a.append(h4)
-        div.append(a, p);
+        h4.append(a)
+        div.append(h4, p);
         blockB.append(div)
     }
 }

@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.blockA div {
+    position: relative;
+}
+
+.blockA div:hover:before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: rgba(0,0,0,0.2);
+    z-index:999;
+    cursor: pointer;
+}
+
+
+.blockA img {
+    display: block;
+    height: 400px;
+    width: auto;
+    border: 1px solid black;
+}
+
+.blockA h1 {
+    background-color: hotpink;
+}

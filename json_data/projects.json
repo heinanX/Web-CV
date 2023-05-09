@@ -2,48 +2,106 @@
     {
         "title": "Inloggningssida",
         "link": "https://github.com/heinanX/Inloggningssida",
-        "description": "One of our first assignments.",
+        "description": "One of our first assignments where we practised HTML, CSS and basic javascript.",
         "type": "frontend",
         "collab": false
     },
     {
         "title": "TechStore10",
         "link": "https://github.com/SigneAnnaMaria/TechStore10",
-        "description": "One of our first assignments.",
+        "description": "Our first, real group project. It was a simple shop using Localstorage as substitute database.",
+        "type": "frontend",
         "collab": true
     },
     {
         "title": "Adressbok med Fetch",
         "link": "https://github.com/SaraPellnor/Adressbok-med-fetch-",
-        "description": "One of our first assignments.",
+        "description": "Exercise on how to fetch .json data.",
+        "type": "frontend",
         "collab": true
     },
     {
         "title": "4 in a row",
         "link": "https://github.com/SaraPellnor/Game---Grupp-11",
-        "description": "One of our first assignments.",
+        "description": "A time limited exercise to practise working together before first, real assignment, TechStore.",
         "type": "frontend",
         "collab": true
     },
     {
         "title": "Calculator",
         "link": "https://github.com/SaraPellnor/Calculator",
-        "description": "One of our first assignments.",
+        "description": "PHP Calculator.",
         "type": "frontend",
         "collab": true
     },
     {
         "title": "To do List Frontend",
         "link": "https://github.com/SaraPellnor/TypeScript-TdoList-Frontend",
-        "description": "One of our first assignments.",
+        "description": "A todo list app where you can add your chores or other todos to a list.",
         "type": "frontend",
         "collab": true
     },
     {
         "title": "To do List Backend",
         "link": "https://github.com/SaraPellnor/TypeScript-TdoList-Backend",
-        "description": "One of our first assignments.",
+        "description": "Backend & Database",
         "type": "backend",
+        "collab": true
+    },
+    {
+        "title": "Typescript DreamJournal Frontend",
+        "link": "https://github.com/heinanX/Typescript-DreamJournal-Frontend",
+        "description": "WIP - of a DreamJournal community.",
+        "type": "frontend",
+        "collab": false
+    },
+    {
+        "title": "Typescript DreamJournal Backend",
+        "link": "https://github.com/heinanX/Typescript-DreamJournal-Backend",
+        "description": "WIP - of a DreamJournal community.",
+        "type": "backend",
+        "collab": false
+    },
+    {
+        "title": "WordPress Assignment 1",
+        "link": "https://github.com/heinanX/wordpressAssignment",
+        "description": "First assignment in Wordpress.",
+        "type": "frontend",
+        "collab": false
+    },
+    {
+        "title": "WordPress child theme",
+        "link": "https://github.com/heinanX/wordpress-barntema",
+        "description": "Basics about child themes and working with hooks.",
+        "type": "frontend",
+        "collab": false
+    },
+    {
+        "title": "Headless Api",
+        "link": "https://github.com/heinanX/middleware/tree/main/router",
+        "description": "Practised building a headless REST API.",
+        "type": "backend",
+        "collab": false
+    },
+    {
+        "title": "Rest Api Exercise",
+        "link": "https://github.com/heinanX/REST-API-Exercise",
+        "description": "First assignment working with API",
+        "type": "frontend",
+        "collab": false
+    },
+    {
+        "title": "Web CV",
+        "link": "https://github.com/heinanX/Web-CV",
+        "description": "The very thing you're currently browsing. My first web CV.",
+        "type": "frontend",
+        "collab": false
+    },
+    {
+        "title": "Shopping Cart PHP",
+        "link": "https://github.com/heinanX/ShoppingCartPHP",
+        "description": "PHP Shopping cart, working with logic and a headless cart",
+        "type": "frontend",
         "collab": true
     }
 ]
