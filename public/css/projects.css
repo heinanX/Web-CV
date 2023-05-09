@@ -5,8 +5,7 @@ body {
 
 main {
     width: 100%;
-    height: 100vh;
-
+    height: 100%;
     max-width: 1200px;
     display: flex;
     flex-direction: row;
@@ -16,7 +15,6 @@ main {
     flex-direction: column;
     align-items: center;
     width: 32%;
-    height: auto;
     margin-top: 5rem;
     padding: 1rem 2rem;
     background-color: #e5efef;
@@ -30,9 +28,7 @@ main {
 
 .sidemenu {
     width: 14rem;
-/*     color: #1a7170; */
     font-size: 10pt;
-    /* color: #25b4b1; */
     border: 5px solid hotpink;
     margin-top: 1rem;
     padding-left: 0;
@@ -57,20 +53,34 @@ main {
     flex-direction: row;
     gap: 0 3rem;
     margin-top: 5rem;
-    margin-left: 5rem;
+    margin-left: 2rem;
 
 }
 .blockB div {
 
     flex-direction: column;
 
-    width: 20rem;
+    width: 22rem;
     height: 20rem;
     border: 1px solid #25b4b1;
     margin: 1rem;
+    padding: 1rem;
+}
+.blockB div:hover {
+    border: 5px solid #25b4b1;
+}
+
+.blockB div h4 {
+    text-align: center;
 }
 .blockB div a {
+
     text-decoration: none;
     background-color: yellow;
     color: hotpink;
+}
+
+.blockB div p {
+    text-align: center;
+    padding: 0 2rem;
 }
