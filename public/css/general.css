@@ -23,9 +23,6 @@ header {
     background-color: black;
 }
 
-header > h1 {
-    padding-top: 1rem;
-}
 
 h1 a {
     text-decoration: none;
@@ -41,19 +38,6 @@ nav > ul {
 
     list-style-type: none;
     font-size: 15pt;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-
-/*     background-color: rgb(19, 47, 60); */
-    background-color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-/*     background-image: url('../images/silhouette.png');
-    background-size: contain;
-    background-repeat: no-repeat; */
 }
 
 .banner {
@@ -96,6 +80,9 @@ body {
 .font-dark {
     color: #1a7170;
 }
+.font-gray {
+    color: rgb(156, 156, 156);
+}
 
 .bg-yellow {
     background-color: yellow;
@@ -106,6 +93,10 @@ body {
     font-size: 14pt;
 }
 
+.sm-txt {
+    font-size: 9pt;
+}
+
 .strip {
     margin-top: 1rem;
     margin-bottom: 0
@@ -113,3 +104,18 @@ body {
     background-color: white;
 }
 
+.contact--div {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 0 5px 2rem ;
+}
+
+.soMeIcons {
+    text-decoration: none;
+    color: #25b4b1;
+    font-size: 20pt;
+    padding-right: 1rem;
+}

@@ -121,7 +121,6 @@ main {
 
 .btn-secondary {
     color: lightgreen;
-
 }
 
 #hello--row--5 {
@@ -140,7 +139,7 @@ main {
 
     width: 100%;
     height: 100vh;
-    border: 2px solid rgb(105, 223, 255);
+    max-width: 1200px;
 }
 
 .pres--blockA {

@@ -16,35 +16,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
-
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/06c9e20a7c.js" crossorigin="anonymous"></script>
 
     <script type="module" src="./scripts/letter.js" defer></script>
 
 
 </head>
 <body>
-    <header>
-        <h1><a href="./index.html">Linda Eskilsson</a></h1>
-        <nav>
-            <ul>
-                <li><a class="nav--link" href="./page_about-me.html">about me</a></li>
-                <li><a class="nav--link" href="#">qualifications</a></li>
-                <li><a class="nav--link" href="./projects.html">projects</a></li>
-                <li><a class="nav--link" href="#">CV Pdf</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="d-flex flex-row  align-items-center pt-3 mb-3">
+ 
+        <h1 id="txt-logo"><a href="./index.html">Linda Eskilsson</a></h1>
+    <nav>
+        <ul>
+            <li><a class="nav--link" href="./page_about-me.html">about me</a></li>
+            <li><a class="nav--link" href="./page_qualifications.html">qualifications</a></li>
+            <li><a class="nav--link" href="./page_projects.html">projects</a></li>
+            <li><a class="nav--link" href="#">CV Pdf</a></li>
+        </ul>
+    </nav>
+</header>
     <main>
         <div class="blockA d-flex">
-            <div id="avatar"></div>
-            <!-- <h4 class="strip">facts</h4> -->
+            <div >
+                <img id="avatar" src="./images/IMG_1473-sm.png" alt="PictureofMe">
+            </div>
+            <div class="progLangs sm-txt">
+                <div class="d-flex flex-row justify-content-center pt-3 mb-3">
+
+                    <a href="https://www.linkedin.com/in/xx" target="_blank" class="fa-brands fa-linkedin soMeIcons"></a>
+                    <a href="https://github.com/heinanX" target="_blank" class="fa-brands fa-square-github soMeIcons"></a>
+                    <a href="mailto:LindaEskilsson@medieinstitutet.se?subject=Kontakta mig" class="fa-solid fa-envelope soMeIcons"></a>
+        
+                </div>
+                <p class="text-secondary mb-0">Location: Sollentuna, Stockholm</p>
+            </div>
+
             <ul class="sidemenu">
-                <li>
-                    <h6>Name</h6>
-                    <ul>
-                        <li>Linda Eskilsson</li>
-                    </ul>
-                </li>
                 <li>
                     <h6>Occupation</h6>
                     <ul>
@@ -65,33 +74,53 @@
                 <li>
                     <h6>Interests</h6>
                     <ul>
-                        <li>Nature</li>
+                        <li>The outdoors</li>
                         <li>Reading</li>
                         <li>Writing</li>
                         <li>traveling</li>
-                        <li>add one more</li>
                     </ul>
+            </ul>
+
 
         </div>
         <div class="blockB">
             <div class="letter2">
-                <article class="letter">
-                    <section id="paragraph-1">
+                <article class="pt-5">
+                    <section class="d-inline mb-5">
+
+                        <h5 id="paragraph-1" class="d-inline "></h5>
+                        <h5 id="ls-name" class="d-inline ls-name"></h5>
+
 
                     </section>
-                    <section id="paragraph-2">
-    
-                    </section>
-                    <section id="paragraph-3">
+                    <section class="d-inline">
+
+                        <p id="paragraph-2" class="mt-2"></p>
 
                     </section>
-                    <section id="paragraph-4">
+                    <section>
+
+                        <p id="paragraph-3"></p>
 
                     </section>
-                    <section id="paragraph-5">
+                    <section>
+
+                        <p id="paragraph-4"></p>
 
                     </section>
-                    <section id="paragraph-6">
+                    <section>
+
+                        <p id="paragraph-5"></p>
+
+                    </section>
+                    <section>
+
+                        <p id="paragraph-6"></p>
+
+                    </section>
+                    <section>
+
+                        <p id="paragraph-7"></p>
 
                     </section>
                 </article>
@@ -100,7 +129,77 @@
 
         </div>
         <div class="blockC">
-            <button class="btn btn-light translate">Swedish</button>
+            <span class="d-flex justify-content-end align-items-center gap-2">
+                    <span class="material-symbols-outlined sm-txt"> language </span>
+                    <button class="btn btn-light translate"></button>
+
+            </span>
+
+            <div class="experience mt-4 mb-5">
+                
+                <div class="d-flex justify-content-center mb-3">
+                    <img id="koda" src="./images/koda.png" alt="picture of my dog">
+                </div>
+                
+                <h6>Experience</h6>
+                <div class="col-level">
+                    <div id="html" class="lvloProgress ps-2">
+                        <p class="mb-0 sm-txt">.html</p>
+                    </div>
+                </div>
+
+
+                <div class="col-level">
+                    <div id="css" class="lvloProgress ps-2">
+                        <p class="mb-0 sm-txt">.css</p>
+                    </div>
+                </div>
+                
+                <div class="col-level">
+                    <div id="javascript" class="lvloProgress ps-2">
+                        <p class="mb-0 sm-txt">.javascript</p>
+                    </div>
+                </div>
+
+                <div class="col-level">
+                    <div id="nodeJs" class="lvloProgress ps-2">
+                        <p class="mb-0 sm-txt">.node.js</p>
+                    </div>
+                </div>
+                
+
+                <div class="col-level">
+                    <div id="transcript" class="lvloProgress ps-2">
+                        <p class="mb-0 sm-txt">.transcript</p>
+                    </div>
+                </div>
+
+
+                <div class="col-level">
+                    <div id="php" class="lvloProgress ps-2">
+                        <p class="mb-0 sm-txt">.php</p>
+                    </div>
+                </div>
+
+
+                <div class="col-level">
+                    <div id="wordpress" class="lvloProgress ps-2">
+                        <p class="mb-0 sm-txt">.wordpress</p>
+                    </div>
+                </div>
+
+
+                <div class="col-level">
+                    <div id="adobe" class="lvloProgress ps-2">
+                        <p class="mb-0 sm-txt">.adobe</p>
+                    </div>
+                </div>
+                
+            </div>
+            <h6 class="mb-0">Fun fact</h6>
+            <div id="funFact">
+                <p>Did You know I also have an education in Packaging designs with a focus on Graphic Design. Neat, huh!</p>
+            </div>
         </div>
 
     </main>
