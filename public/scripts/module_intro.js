@@ -1,8 +1,7 @@
-import { reloadHome_skills, reloadHome_personality, nameOfVisitor, board } from './script.js'
+import { reloadHome_skills, reloadHome_personality, nameOfVisitor } from './script.js'
 
 export const playIntro = () => {
 
-    board.style.display = 'none'
     const text = document.querySelector('.hello')
     let greet = "... ";
 
@@ -52,7 +51,7 @@ const cueName = () => {
     screen.appendChild(row2)
 
     const hello = document.querySelector('.hello')
-    hello.style.color = 'gray';
+    hello.style.color = 'lightgray';
     const greet = "May I ask, what's your name?";
     let index = 0;
 
@@ -64,11 +63,12 @@ const cueName = () => {
         clearInterval(timerId);
 
         setTimeout(() => {
+            localStorage.removeItem('visitor');
             const screen = document.querySelector('.screen')
             const input = document.createElement('input')
             input.setAttribute('class', 'enter--name')
             screen.appendChild(input)
-            input.focus()
+            
 
             input.addEventListener('keydown', (event) => {
                 if (event.key === 'Enter') {
@@ -77,13 +77,16 @@ const cueName = () => {
                 }
             })
 
+            input.focus()
+
             const btn = document.createElement('button')
-            btn.setAttribute('class', 'btn btn-secondary btn--absolute')
+            btn.setAttribute('class', 'btn btn--absolute')
             btn.setAttribute('id', 'keyboardBtn')
             btn.addEventListener('click', () => { showKeyboard() })
             btn.innerText = 'Need a Keyboard?'
 
-            document.body.appendChild(btn)
+            screen.appendChild(btn)
+            
             
         }, 500)
     }
@@ -133,7 +136,7 @@ const cueGreeting = () => {
     btn.style.display = 'none';
     input.style.display = 'none';
     keyboard.style.display = 'none';
-    row2.style.color = 'gray';
+    row2.style.color = 'lightgray';
 
     const screen = document.querySelector('.screen')
     const text = document.createElement('p')
@@ -159,7 +162,7 @@ const cueGreeting = () => {
 
 const cueIntroduction = () => {
     const row3 = document.querySelector('#hello--row--3')
-    row3.style.color = 'gray';
+    row3.style.color = 'lightgray';
     const screen = document.querySelector('.screen')
     const text = document.createElement('p')
     text.setAttribute('id', 'hello--row--4')
@@ -187,7 +190,7 @@ const cueIntroduction = () => {
 
 const makeChoice = () => {
     const row4 = document.querySelector('#hello--row--4')
-    row4.style.color = 'gray';
+    row4.style.color = 'lightgray';
 
     const screen = document.querySelector('.screen')
     const text = document.createElement('p')
@@ -226,13 +229,13 @@ const makeChoiceBtns = (screen) => {
     div.setAttribute('class', 'makeChoiceBtn--div')
 
     const personalityBtn = document.createElement('button')
-    personalityBtn.setAttribute('class', 'btn btn-secondary')
+    personalityBtn.setAttribute('class', 'btn btn-light')
     const span = document.createElement('span')
     const skillsBtn = document.createElement('button')
-    skillsBtn.setAttribute('class', 'btn btn-secondary')
+    skillsBtn.setAttribute('class', 'btn btn-light')
     
     personalityBtn.innerText = 'Personality'
-    span.innerText = ' or '
+    span.textContent = '  or  '
     skillsBtn.innerText = 'Skills'
 
     div.append(personalityBtn, span, skillsBtn)
@@ -241,5 +244,3 @@ const makeChoiceBtns = (screen) => {
     skillsBtn.addEventListener('click', reloadHome_skills)
     personalityBtn.addEventListener('click', reloadHome_personality)
 }
-    /* reloadHome() */
-/* let greet = "Please wait while I get things ready..."; */

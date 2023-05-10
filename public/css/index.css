@@ -6,15 +6,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 
 .screen {
     width: 45em;
-    /* height: 15em; */
-/*     border: 1px solid rgb(183, 0, 255); */
     border: 2px solid black;
 
     display: flex;
@@ -25,8 +21,8 @@ main {
     margin-bottom: 2rem;
     padding: 1rem;
 
-    /* color: aliceblue; */
     color: rgb(0, 0, 0);
+    font-weight: 200;
 }
 
 .screen > p {
@@ -38,12 +34,12 @@ main {
 .keyboard {
     width: 48em;
     height: 15em;
-    background-color: rgb(199, 247, 225);
-    border: 1rem solid rgb(199, 247, 225);
+    background-color: #dbf6f6;
+    border: 1rem solid #dbf6f6;
     border-radius: 1rem;
 
     position: absolute;
-    bottom: 2rem;
+    bottom: -15rem;
     display: none;
     justify-content: center;
     gap: 1px 4px;
@@ -86,10 +82,8 @@ main {
 }
 
 .enter--name {
-/*     color: aliceblue; */
     color: black;
-    /* background-color: rgba(240, 248, 255, 0.297); */
-    background-color: rgba(199, 247, 225);
+    background-color: hotpink;
     outline: none;
     border: none;
     border-radius: 2px;
@@ -115,13 +109,14 @@ main {
 
 .btn--absolute {
     position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: -2rem;
+    right: 0rem;
 }
 
-.btn-secondary {
-    color: lightgreen;
+.btn {
+    background-color: #dbf6f6;
 }
+
 
 #hello--row--5 {
     margin-top: 1rem;
@@ -185,20 +180,6 @@ ul li span:hover {
 #intro-turq-content {
     margin-bottom: 0;
 }
-
-
-
-
-
-
-/* .carousel-inner {
-    width: 15%;
-}
-
-.img-600px {
-    width: 300px;
-}
-*/
 
 @media only screen and (max-width: 400px) {
     .screen{
