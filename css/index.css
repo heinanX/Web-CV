@@ -147,6 +147,14 @@ main {
     height: auto;
     padding-top: 7rem;
 }
+.pres--blockB {
+    position: relative;
+    z-index: 1;
+
+    width: 60%;
+    height: auto;
+    padding-top: 7rem;
+}
 
 #emphasis-styling-pink {
     color: hotpink;
@@ -179,6 +187,25 @@ ul li span:hover {
 
 #intro-turq-content {
     margin-bottom: 0;
+}
+
+.msg-bubble {
+    width: 10rem;
+    height: 10rem;
+    padding: 2rem;
+    border-radius: 5rem;
+    
+    font-size: 11pt;
+    background-color: #dbf6f6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: absolute;
+    top: 10rem;
+    right: 2rem;
 }
 
 @media only screen and (max-width: 400px) {

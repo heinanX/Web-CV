@@ -16,6 +16,7 @@ header {
     justify-content: space-between;
 
     position: fixed;
+    z-index: 2;
 
     padding: 0 2rem 0 2rem;
     color: rgb(228, 244, 237);
