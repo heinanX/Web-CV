@@ -4,7 +4,7 @@ const presentation = document.querySelector('.presentation')
 export const nameOfVisitor = []
 
 const init = () => {
-    if (window.location.pathname === '/public/index.html') {
+    if (window.location.pathname === '/index.html') {
 
         const visitor = localStorage.getItem('visitor')
         const mode = localStorage.getItem('mode')
