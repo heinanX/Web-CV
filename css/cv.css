@@ -6,11 +6,14 @@ body {
 main {
     width: 100%;
     max-width: 1200px;
-    height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
+}
+
+iframe {
+    width: 40rem;
+    height: 40rem;
 }
 
 .blockA {
@@ -47,4 +50,10 @@ main {
 
 .blockA h1 {
     background-color: hotpink;
+}
+
+@media only screen and (max-width: 400px) {
+    iframe {
+        display: none;
+    }
 }

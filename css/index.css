@@ -142,12 +142,9 @@ main {
     height: auto;
     padding-top: 5rem;
 }
+
 .pres--blockB {
-    width: 60%;
-    height: auto;
-    padding-top: 7rem;
-}
-.pres--blockB {
+    display: flex;
     position: relative;
     z-index: 1;
 
@@ -155,6 +152,10 @@ main {
     height: auto;
     padding-top: 7rem;
 }
+
+.pres--blockB-mobile {
+    display: none;
+  }
 
 #emphasis-styling-pink {
     color: hotpink;
@@ -258,7 +259,28 @@ ul li span:hover {
         flex-direction: column;
         gap: 1rem;
     }
-  }
+    
+    .presentation {
+        flex-direction: column;
+      }
+      .pres--blockA {
+        width: 100%;
+      }
+      .pres--blockB {
+        display: none;
+      }
+      .pres--blockB-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10pt;
+      }
+
+      article section h3 {
+        display: inline;
+      }
+}
+
+
 
 /* @media screen and (min-width: 1300px) {
     .pres--blockA {

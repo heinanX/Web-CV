@@ -2,7 +2,6 @@ const funfact_div = document.querySelector('#funFact');
 const a = document.createElement('a')
 const p = document.createElement('p')
 p.setAttribute('class', 'd-inline')
-a.setAttribute('class', 'ps-2')
 a.setAttribute('href', 'http://eskilssonlinda.myportfolio.com')
 a.setAttribute('onclick', `window.open(this.href,'_blank');return false;`)
 
@@ -87,9 +86,9 @@ const renderLetter = () => {
 
 
 const getLink = () => {
-    p.textContent = `Check it out if you got the time!`
-    a.textContent = `>> Here <<`
-    funfact_div.append(p, a)
+    p.textContent = ` if you got the time!`
+    a.textContent = `Check it out`
+    funfact_div.append(a, p)
     
 }
 const removeLink = () => {

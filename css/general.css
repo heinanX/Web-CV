@@ -24,6 +24,10 @@ header {
     background-color: black;
 }
 
+.dropdown {
+    display: none;
+}
+
 
 h1 a {
     text-decoration: none;
@@ -76,7 +80,7 @@ nav > ul {
     align-items: center;
 }
 
-.font-turquoise {
+.font-turquoise, a {
     color: #25b4b1;
 }
 .font-dark {
@@ -120,4 +124,16 @@ nav > ul {
     color: #25b4b1;
     font-size: 20pt;
     padding-right: 1rem;
+}
+
+@media only screen and (max-width: 820px) {
+    
+    
+    .dropdown {
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+    }
 }

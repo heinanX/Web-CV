@@ -36,6 +36,19 @@
             <li><a class="nav--link" href="./page_cv.html">CV Pdf</a></li>
         </ul>
     </nav>
+
+    <!-- Only visible on iPad or Mobile -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            menu
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./page_about-me.html">about me</a></li>
+            <li><a class="dropdown-item" href="./page_qualifications.html">skils</a></li>
+            <li><a class="dropdown-item" href="./page_projects.html">projects</a></li>
+            <li><a class="dropdown-item" href="/page_cv.html">CV pdf</a></li>
+        </ul>
+    </div>
 </header>
     <main>
         <div class="blockA d-flex">
@@ -84,6 +97,10 @@
 
         </div>
         <div class="blockB">
+            <span class="d-flex justify-content-end align-items-center gap-2 translateBtn">
+                <span class="material-symbols-outlined sm-txt"> language </span>
+                <button class="btn btn-light translate"></button>
+            </span>
             <div class="letter2">
                 <article class="pt-5">
                     <section class="d-inline mb-5">
@@ -129,13 +146,8 @@
 
         </div>
         <div class="blockC">
-            <span class="d-flex justify-content-end align-items-center gap-2">
-                    <span class="material-symbols-outlined sm-txt"> language </span>
-                    <button class="btn btn-light translate"></button>
 
-            </span>
-
-            <div class="experience mt-4 mb-5">
+            <div class="mb-4">
                 
                 <div class="d-flex justify-content-center mb-3">
                     <img id="koda" src="./images/koda.png" alt="picture of my dog">
@@ -196,7 +208,7 @@
                 </div>
                 
             </div>
-            <h6 class="mb-0">Fun fact</h6>
+            <h6 class="mb-1">Fun fact</h6>
             <div id="funFact">
                 <p>Did You know I also have an education in Packaging designs with a focus on Graphic Design. Neat, huh!</p>
             </div>

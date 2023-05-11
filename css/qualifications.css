@@ -5,14 +5,14 @@ body {
 
 main {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
 }
 
 .blockA {
     align-items: end;
-    height: 15rem;
+    height: 12rem;
     margin-top: 5rem;
     padding: 1rem 2rem;
     gap: 1rem;
@@ -20,12 +20,11 @@ main {
 }
 .blockA h1 {
     background-color: #25b4b1;
+    margin-left: 10rem;
 }
 .blockA h3 {
     max-width: 22rem;
 }
-
-
 
 .blockB {
     flex-direction: column;
@@ -55,4 +54,37 @@ main {
 
 .read-more {
     display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .blockA {
+        height: 8rem;
+    }
+
+    .blockA h1 {
+        margin-left: 0rem;
+    }
+
+    .blockA h3 {
+        font-size: 14pt;
+    }
+
+    .blockB article {
+        padding-left: 0;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .blockB article:hover {
+        background-color: white;
+    }
+
+    .blockB article:last-child {
+        margin-bottom: 2rem;
+    }
+    
+    .blockB article p {
+        padding-left: 0.5rem;
+        font-size: 10pt;
+    }
 }
