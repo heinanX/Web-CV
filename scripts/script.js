@@ -2,6 +2,7 @@ import { playIntro } from "./module_intro.js"
 
 const presentation = document.querySelector('.presentation')
 const headerName = document.querySelector('.headerName')
+const keyboard = document.querySelector('.keyboard')
 headerName.addEventListener('click', () => { clear_LS() } )
 
 export const nameOfVisitor = []
@@ -13,6 +14,7 @@ const init = () => {
         const mode = localStorage.getItem('mode')
         if (visitor && (mode === 'skills')) { return reloadHome_skills() }
         if (visitor && (mode === 'personality')) { return reloadHome_personality() }
+        keyboard.style.display = 'none';
         playIntro()
 
       }

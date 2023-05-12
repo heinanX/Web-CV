@@ -113,7 +113,7 @@ main {
     right: 0rem;
 }
 
-.btn {
+#keyboardBtn, .makeChoiceBtn--div .btn {
     background-color: #dbf6f6;
 }
 
@@ -210,6 +210,9 @@ ul li span:hover {
 }
 
 @media only screen and (max-width: 400px) {
+    header {
+        padding: 0 15px;
+    }
     .screen{
         width: 20em;
         height: 30em;
@@ -220,6 +223,7 @@ ul li span:hover {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        bottom: -10rem;
 
         width: 20em;
         height: 10em;
@@ -261,7 +265,9 @@ ul li span:hover {
     }
     
     .presentation {
+        margin-top: 2rem;
         flex-direction: column;
+        gap: 2rem;
       }
       .pres--blockA {
         width: 100%;
@@ -273,6 +279,7 @@ ul li span:hover {
         display: flex;
         flex-wrap: wrap;
         font-size: 10pt;
+        width: 100%;
       }
 
       article section h3 {
