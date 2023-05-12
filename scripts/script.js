@@ -1,6 +1,9 @@
 import { playIntro } from "./module_intro.js"
 
 const presentation = document.querySelector('.presentation')
+const headerName = document.querySelector('.headerName')
+headerName.addEventListener('click', () => { clear_LS() } )
+
 export const nameOfVisitor = []
 
 const init = () => {
@@ -31,6 +34,13 @@ export const reloadHome_personality = () => {
     initLoad.style.display = 'none';
     presentation.style.display = 'flex';
     header.style.display = 'flex';
+}
+
+const clear_LS = () => {
+    console.log('hello');
+
+    localStorage.removeItem('visitor');
+    localStorage.removeItem('mode')
 }
 
 init();

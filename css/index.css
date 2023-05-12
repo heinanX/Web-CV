@@ -11,7 +11,7 @@ main {
 
 .screen {
     width: 45em;
-    border: 2px solid black;
+    border: 2px solid hotpink;
 
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ main {
     padding: 1rem;
 
     color: rgb(0, 0, 0);
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .screen > p {
@@ -83,7 +83,7 @@ main {
 
 .enter--name {
     color: black;
-    background-color: hotpink;
+    background-color: #dbf6f6;
     outline: none;
     border: none;
     border-radius: 2px;
@@ -279,18 +279,3 @@ ul li span:hover {
         display: inline;
       }
 }
-
-
-
-/* @media screen and (min-width: 1300px) {
-    .pres--blockA {
-        width: 50%;
-        height: auto;
-        padding-top: 5rem;
-    }
-    .pres--blockB {
-        width: 50%;
-        height: auto;
-        padding-top: 7rem;
-    }
-  } */
