@@ -1,8 +1,15 @@
 [
     {
+        "title": "Yahtzee",
+        "link": "https://github.com/heinanX/Yatzy-Game",
+        "description": "A game to practice Transcript and thinking outside the norm and programming logic. WIP",
+        "type": "frontend",
+        "collab": false
+    },
+    {
         "title": "Inloggningssida",
         "link": "https://github.com/heinanX/Inloggningssida",
-        "description": "One of our first assignments where we practised HTML, CSS and basic javascript.",
+        "description": "One of our first assignments where we practiced HTML, CSS and basic javascript.",
         "type": "frontend",
         "collab": false
     },
@@ -23,7 +30,7 @@
     {
         "title": "4 in a row",
         "link": "https://github.com/SaraPellnor/Game---Grupp-11",
-        "description": "A time limited exercise to practise working together before first, real assignment, TechStore.",
+        "description": "A time limited exercise to practice working together before first, real assignment, TechStore.",
         "type": "frontend",
         "collab": true
     },
@@ -79,7 +86,7 @@
     {
         "title": "Headless Api",
         "link": "https://github.com/heinanX/middleware/tree/main/router",
-        "description": "Practised building a headless REST API.",
+        "description": "Practiced building a headless REST API.",
         "type": "backend",
         "collab": false
     },
@@ -93,7 +100,7 @@
     {
         "title": "Web CV",
         "link": "https://github.com/heinanX/Web-CV",
-        "description": "The very thing you're currently browsing. My first web CV.",
+        "description": "The very thing you're currently browsing. My first web CV, still a WIP.",
         "type": "frontend",
         "collab": false
     },
