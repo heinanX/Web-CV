@@ -1,6 +1,5 @@
 main {
     width: 100%;
-    height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -213,15 +212,40 @@ ul li span:hover {
     right: 2rem;
 }
 
+/* ----------------------------------------   MEDIAQUERIES */
+
+/* IPAD */
+
+@media only screen and (max-width: 820px) {
+    .presentation {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pres--blockA img {
+        width: 20rem;
+    }
+    .pres--blockB {
+        width: auto;
+        padding-top: 2rem;
+    }
+    .pres--blockB > article > h1{
+        margin-left: 30%;
+    }
+
+    .msg-bubble {
+        top: -32rem;
+        right: -3rem;
+    }
+}
+
+/* MOBILE IPHONE X */
+
 @media only screen and (max-width: 400px) {
     header {
         padding: 0 15px;
     }
-/*     .screen{
-        width: 20em;
-        height: 30em;
-        gap: 5px;
-    } */
 
     .keyboard {
         display: flex;
@@ -277,11 +301,16 @@ ul li span:hover {
     
     .presentation {
         margin-top: 2rem;
+        margin-bottom: 2rem;
         flex-direction: column;
         gap: 2rem;
       }
+
       .pres--blockA {
         width: 100%;
+      }
+      .pres--blockA img {
+        width: 18rem;
       }
       .pres--blockB {
         display: none;
@@ -312,26 +341,3 @@ ul li span:hover {
       }
 }
 
-@media only screen and (max-width: 820px) {
-    .presentation {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .pres--blockA img {
-        width: 20rem;
-    }
-    .pres--blockB {
-        width: auto;
-        padding-top: 2rem;
-    }
-    .pres--blockB > article > h1{
-        margin-left: 30%;
-    }
-
-    .msg-bubble {
-        top: -32rem;
-        right: -3rem;
-    }
-}
