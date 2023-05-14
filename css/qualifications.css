@@ -16,8 +16,8 @@ main {
     margin-top: 5rem;
     padding: 1rem 2rem;
     gap: 1rem;
-/*     background-color: #e5efef; */
 }
+
 .blockA h1 {
     background-color: #25b4b1;
     margin-left: 10rem;
@@ -49,7 +49,7 @@ main {
 }
 
 .blockB article p {
-    padding-left: 2rem;
+    padding-left: 10px;
 }
 
 .read-more {
@@ -62,7 +62,7 @@ main {
     }
 
     .blockA h1 {
-        margin-left: 0rem;
+        margin-left: 0;
     }
 
     .blockA h3 {
@@ -84,7 +84,6 @@ main {
     }
     
     .blockB article p {
-        padding-left: 0.5rem;
         font-size: 10pt;
     }
 }

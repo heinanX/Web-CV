@@ -17,6 +17,7 @@ main {
     align-items: center;
     text-align: center;
 
+    margin-top: 8rem;
     margin-bottom: 2rem;
     padding: 1rem;
 
@@ -301,7 +302,7 @@ ul li span:hover {
     
     .presentation {
         margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
         flex-direction: column;
         gap: 2rem;
       }

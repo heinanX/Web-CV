@@ -1,4 +1,7 @@
 const funfact_div = document.querySelector('#funFact');
+const koda = document.querySelector('#koda');
+koda.addEventListener('click', () => { clear_LS() })
+
 const a = document.createElement('a')
 const p = document.createElement('p')
 p.setAttribute('class', 'd-inline')
@@ -31,7 +34,12 @@ const translate = () => {
     const para7 = document.querySelector('#paragraph-7');
 
     para1.textContent = `Hej igen,`
-    lsName.textContent = `${getVisitor}!`
+
+    if (getVisitor) {
+        lsName.style.display = 'inline';
+        lsName.textContent = `${getVisitor}!`
+    }
+  
     para2.textContent = `Kul att se att du hittade hit. Låt mig presentera mig själv mer ingående den här gången. Som ni redan vet är namnet Linda och jag är student på Medieinstitutet i Stockholm där jag studerar Webbprogrammering för e-handel. Det betyder att jag har erfarenhet av både Backend och Frontend programmering.`
 
     para3.textContent = `I skolan har vi fokuserat främst på att använda Javascript eftersom det är både ett frontend- och backendspråk (Node.js). Utöver det har jag förståelse för PHP och goda erfarenhet av Transcript, HTML och CSS.`
@@ -66,7 +74,10 @@ const renderLetter = () => {
     const para7 = document.querySelector('#paragraph-7');
 
     para1.textContent = `Hi again, `
-    lsName.textContent = `${getVisitor}!`
+    if (getVisitor) {
+        lsName.style.display = 'inline';
+        lsName.textContent = `${getVisitor}!`
+    }
     
     para2.textContent = `Glad to see you found your way back here. Let me introduce myself more thoroughly this time. As you already know, the name is Linda and I'm a student of Medieinstitutet in Stockholm where I study Web Programming for eCommerce. This means I have experience with both Backend and Frontend programming.`
 
@@ -94,7 +105,13 @@ const getLink = () => {
 const removeLink = () => {
     a.innerText = '';
     p.innerText = ''
+}
 
+const clear_LS = () => {
+    console.log('hello');
+
+    localStorage.removeItem('visitor');
+    localStorage.removeItem('mode')
 }
 
 

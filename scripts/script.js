@@ -1,9 +1,7 @@
 import { playIntro } from "./module_intro.js"
 
 const presentation = document.querySelector('.presentation')
-const headerName = document.querySelector('.headerName')
 const keyboard = document.querySelector('.keyboard')
-headerName.addEventListener('click', () => { clear_LS() } )
 
 export const nameOfVisitor = []
 
@@ -24,7 +22,7 @@ export const reloadHome_skills = () => {
     const key = 'skills';
     localStorage.setItem('mode', key)
 
-    window.location.href = "./page_qualifications.html"
+    window.location.href = "./page_skills.html"
 }
 
 export const reloadHome_personality = () => {
@@ -36,13 +34,6 @@ export const reloadHome_personality = () => {
     initLoad.style.display = 'none';
     presentation.style.display = 'flex';
     header.style.display = 'flex';
-}
-
-const clear_LS = () => {
-    console.log('hello');
-
-    localStorage.removeItem('visitor');
-    localStorage.removeItem('mode')
 }
 
 init();
