@@ -13,12 +13,13 @@
 
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
 
       <script type="module" src="./scripts/script.js" defer></script>
   </head>
 
   <body>
+    <!-- HEADER DESKTOP -->
     <header class="d-flex flex-row  align-items-center pt-3 mb-3">
   
       <h1 id="txt-logo"><a href="./index.html">Linda Eskilsson</a></h1>
@@ -31,7 +32,7 @@
           </ul>
       </nav>
       
-      <!-- Only visible on iPad or Mobile -->
+      <!-- HEADER MOBILE & IPAD -->
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           menu
@@ -45,13 +46,15 @@
       </div>
     </header>
 
-    <!-- <span class="banner d-block"> >> Currently looking for an internship as full stack developer << </span> -->
+    <!-- PAGE INDEX - CONTENT STARTS HERE -->
 
     <main>
+      <!-- TALKING SCREEN INTRODUCTION -->
         <div class="init--load">
             <div class="screen">
                 <p class="hello"></p>
             </div>
+            <!-- NEED A KEYBOARD? -->
             <div class="keyboard">
                 <div class="key keyQ">Q</div>
                 <div class="key">W</div>
@@ -88,18 +91,17 @@
         </div>
 
 
-      <!-- PRESENTATION DIV FRONT PAGE -->
+      <!-- PERSONALITY FRONT PAGE UI -->
 
       <div class="presentation">
 
         <div class="pres--blockA center--adjust">
           <img src="images/silhouette.png" alt="silhouetteOfMe">
-        
         </div>
 
         <div class="pres--blockB align-items-center ">
-
           <article>
+
             <h1 class="display-1 font-turquoise bg-yellow d-inline">.hello</h1>
             <br>
             <br>
@@ -128,10 +130,9 @@
           </article>
         </div>
 
-        <!-- DIV PRESENTATION MOBILE -->
+        <!-- PERSONALITY FRONT PAGE MOBILE -->
 
         <div class="pres--blockB-mobile">
-
           <article>
 
             <section class="font-turquoise">
@@ -154,7 +155,6 @@
             </section>
             
           </article>
-
         </div>      
       </div>
     </main>

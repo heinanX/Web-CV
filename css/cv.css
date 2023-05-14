@@ -29,15 +29,17 @@ iframe {
     position: relative;
 }
 
-
-
-
 .blockA h1, .blockA-mobile h1 {
     background-color: hotpink;
 }
+
 .blockA-mobile {
     display: none;
 }
+
+/* ----------------------------------------   MEDIAQUERIES */
+
+/* IPAD AND SMALLER */
 
 @media only screen and (max-width: 820px) {
     main {

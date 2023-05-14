@@ -40,9 +40,11 @@ main {
     border-bottom: 1px solid hotpink;
     font-weight: 200;
 }
+
 .blockB article:last-child {
     border-bottom: 0;
 }
+
 .blockB article:hover {
     cursor: default;
     background-color: hotpink;
@@ -52,10 +54,9 @@ main {
     padding-left: 10px;
 }
 
-.read-more {
-    display: none;
-}
+/* ----------------------------------------   MEDIAQUERIES */
 
+/* IPHONE 12 */
 @media only screen and (max-width: 400px) {
     .blockA {
         height: 8rem;
