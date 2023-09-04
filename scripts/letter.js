@@ -82,16 +82,16 @@ const renderLetter = () => {
         lsName.textContent = `${getVisitor}!`;
     }
     
-    para2.textContent = `Glad to see you found your way back here. Let me introduce myself more thoroughly this time. As you already know, the name is Linda and I'm a student of Medieinstitutet in Stockholm where I study Web Programming for eCommerce. This means I have experience with both Backend and Frontend programming.`;
+    para2.textContent = `Glad to see you found your way back here. Let me introduce myself more thoroughly this time around. As you already know, my name is Linda, and I'm a student at Medieinstitutet in Stockholm, where I'm studying Web Programming for eCommerce. This means I have experience with both Backend and Frontend programming.`
 
-    para3.textContent = `In school, we have focused mainly on using Javascript since it's versatile as both a frontend and backend language (Node.js). We have dabbled with PHP and though my strength lies in Javascript, I feel confident using both since they are similar to each other.`;
+    para3.textContent = `In school, our main foucs has been on using Javascript, as it's versatile and used for both Frontend and Backend development. We have also dabbled in PHP, and though my strength lies in Javascript, I feel confident using both since they are similar to each other.`
     
-    para4.textContent = `As a student I've learned to build webpages from start to finish, though do not limit myself to ecommerce stores only. In between school assignments, I enjoy working on smaller projects and have even created my own Yahtzee. `;
+    para4.textContent = `As a student, I've learned to build webpages from start to finish, although I don't limit myself to ecommerce only. In between school assignments, I enjoy working on smaller projects and have even created my own Yahtzee game. `
 
-    para5.textContent = `What I like the most about programming is that it always challenges me to think. It is like its own little treasure hunt: a journey full of trials and (at times, so frustrating!) errors. Though in the end, as each element is implemented, you get closer to the finish line where the end prize is the satisfaction of another completed project.`;
+    para5.textContent = `What I like the most about programming is that it constantly challenges me to think. It is like its own little treasure hunt: a journey full of trials and (at times, so frustrating!) errors. Though in the end, with each element successfully implemented, you get closer to the finish line, where the ultimate reward is the satisfaction of completing another project.`
 
-    para6.innerHTML = `By nature I hold myself to high standards in all the things I do and take pride in what I deliver. I enjoy learning and am always willing to seek out answers when I need them. In short, I am confident that my experience and attitude makes me a valuable asset to any team.<br><br>If you're looking for an eager intern, or just want to connect, send me a <a href="mailto:lindaEskilsson@medieInstitutet.se">hello</a>.<br> Until we meet again!`;
-
+    para6.innerHTML = `By nature, I hold myself to high standards in all the things I do and take pride in what I deliver. I enjoy learning and always ready to seek out answers when I need them. In short, I'm confident that my experience and attitude makes me a valuable asset to any team.<br><br>If you're looking for an eager intern, or just want to connect, send me a <a href="mailto:lindaEskilsson@medieInstitutet.se">hello</a>.<br> Until we meet again!`
+    
     para7.innerHTML = ` Sincerely, <br> Linda`;
     
 }
