@@ -6,7 +6,7 @@ const keyboard = document.querySelector('.keyboard');
 export const nameOfVisitor = [];
 
 const init = () => {
-    if (window.location.pathname === '/index.html') {
+    if (window.location.pathname === '/index.html' || '/') {
 
         const visitor = localStorage.getItem('visitor');
         const mode = localStorage.getItem('mode');
