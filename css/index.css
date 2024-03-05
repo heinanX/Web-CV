@@ -196,20 +196,25 @@ ul li span:hover {
 .msg-bubble {
     width: 10rem;
     height: 10rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 5rem;
     
     font-size: 11pt;
     background-color: #dbf6f6;
 
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
 
     position: absolute;
     top: 10rem;
     right: 2rem;
+}
+
+.msg-bubble > p {
+    font-size: small;
+    margin-bottom: 0;
+    text-transform: uppercase;
 }
 
 /* ----------------------------------------   MEDIAQUERIES */

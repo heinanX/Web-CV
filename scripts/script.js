@@ -15,7 +15,7 @@ const init = () => {
         keyboard.style.display = 'none';
         playIntro();
 
-      }
+    }
 }
 
 export const reloadHome_skills = () => {
